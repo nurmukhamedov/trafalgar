@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish';
+}
+
+.container {
+    width: 1600px;
+    margin: 100px auto;
+}
+
+.article-top {
+    margin-bottom: 229px;
+}
+
+.article-top,
+.article-bottom {
+    margin-left: 135px;
+    margin-right: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-top-img {
+    width: 650px;
+    height: 447px;
+    margin-right: 142px;
+}
+
+.heading-article-top {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 57px;
+    margin-bottom: 26px;
+}
+
+.hr-article-top {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 31px;
+}
+
+.text-article-top {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-bottom: 37px;
+}
+
+.button-article-top {
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-bottom-img {
+    width: 665px;
+    height: 434px;
+    margin-left: 71px;
+}
+
+.span-button-article-top {
+    margin-right: 15px;
+}
